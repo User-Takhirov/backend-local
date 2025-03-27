@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server-auth db.json -r routes.json --port 4000",
-    "dev": "json-server-auth db.json -r routes.json",
+    "start": "npx json-server-auth db.json -r routes.json",
+    "dev": "npx json-server-auth db.json -r routes.json",
     "build": "echo 'No build step'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
