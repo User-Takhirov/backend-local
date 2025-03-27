@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$01S5YKzJ9CYb/6JdCqaHveQMEjll4neh77J8vZlH9igGEbpWYyx0i",
+      "id": 1
+    }
+  ],
+  "managers": [],
+  "employees": [
+    {
+      "name": "sdfgsdfs",
+      "last_name": "werwer",
+      "email": "exrologin@gmail.com",
+      "type": "employee",
+      "isActive": false,
+      "id": 1
+    }
+  ],
+  "tasks": [
+    {
+      "type": "manager",
+      "name": "sdgdf",
+      "id": 4,
+      "priority": "medium",
+      "status": "in_progress"
+    },
+    {
+      "type": "manager",
+      "name": "wsdfsf",
+      "id": 5,
+      "priority": "medium",
+      "status": "completed"
+    },
+    {
+      "type": "manager",
+      "name": "werwerewr",
+      "id": 6,
+      "priority": "high",
+      "status": "in_progress"
+    }
+  ]
+}
