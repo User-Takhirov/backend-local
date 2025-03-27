@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run fix-permissions && PORT=${PORT:-3000} npx json-server-auth db.json -r routes.json",
+    "start": "npm run fix-permissions && npx json-server-auth --host 0.0.0.0 --port $PORT db.json -r routes.json",
     "fix-permissions": "chmod +x ./node_modules/.bin/json-server-auth"
   },
   "license": "ISC",
