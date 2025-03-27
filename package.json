@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx json-server --watch db.json -r routes.json",
-    "dev": "npx json-server-auth db.json -r routes.json",
+    "start": "node node_modules/json-server-auth/bin/index.js db.json -r routes.json",
+    "dev": "node node_modules/json-server-auth/bin/index.js db.json -r routes.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
